@@ -12,7 +12,7 @@
         </div>
        
         <div class="centralized-content2">
-            <span>Gerencie seus alunos de maneira eficiente!</span>
+            <span>Gerencie seus alunos de maneira eficiente.</span>
         </div>
     </div>
     <!-- Conteudo Central -->   
