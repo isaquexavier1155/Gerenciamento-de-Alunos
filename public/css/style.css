@@ -363,12 +363,12 @@ label {
     #event-create-container {
         padding: 30px;
          /* background-color: red;  */
-        margin-top: 100px;
+        margin-top: 190px;
     }
 
     #menu-title {
         color: rgb(79 66 247);
-        font-size: 12px;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;
         margin-left: 08px;
@@ -381,7 +381,7 @@ label {
 
     .conteudo-central {
         position: absolute;
-        top: 10%;
+        top: 160%;
         left: 57%;
         transform: translate(-50%, -50%);
         transition: transform 0.3s ease;

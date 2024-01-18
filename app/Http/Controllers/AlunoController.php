@@ -81,7 +81,7 @@ class AlunoController extends Controller
         $aluno->save();
 
                 ////////////////////////////////////////////////INICIO INTEGRAÇÃO WHATSAPP
-
+                //Preciso estar com o número do whatsapp ativo para darcerto
                 $curl = curl_init();
 
                 curl_setopt_array($curl, array(
@@ -105,7 +105,7 @@ class AlunoController extends Controller
                 curl_close($curl);
                 echo $response;
 
-                dd($response);
+                //dd($response);
                 ////////////////////////////////////////////////FIM INTEGRAÇÃO WHATSAPP
     
         // Redirecione de volta para a página de detalhes ou para onde desejar

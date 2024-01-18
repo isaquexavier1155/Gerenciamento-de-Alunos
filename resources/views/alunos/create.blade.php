@@ -52,8 +52,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="data_pagamento" class="form-label">Data de Pagamento:</label>
-                    <input type="date" class="form-control" id="data_pagamento" name="data_pagamento" required>
+                    <label for="data_pagamento" class="form-label">Dia do pagamento(mensal):</label>
+                    <input type="text" class="form-control" id="data_pagamento" name="data_pagamento" required>
                 </div>
 
                 <div class="form-group">

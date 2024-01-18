@@ -34,7 +34,8 @@
                             <p><strong>Cidade:</strong> {{ $aluno->cidade }}</p>
                             <p><strong>Dia da Aula:</strong> {{ $aluno->dia_aula }}</p>
                             <p><strong>Horário da Aula:</strong> {{ $aluno->horario_aula }}</p>
-                            <p><strong>Data de Pagamento:</strong> {{ \Carbon\Carbon::parse($aluno->data_pagamento)->format('d/m/Y') }}</p>
+                            <!-- <p><strong>Data de Pagamento:</strong> {{ \Carbon\Carbon::parse($aluno->data_pagamento)->format('d/m/Y') }}</p> -->
+                            <p><strong>Dia pagamento(mensal)</strong> {{ $aluno->data_pagamento }}</p>
                             <p><strong>Status de Pagamento:</strong> {{ $aluno->status_pagamento }}</p>
 
                             <div class="btn-group" role="group" aria-label="Botões de Ação">
@@ -92,7 +93,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="data_pagamento" class="form-label">Data de Pagamento:</label>
+                                    <label for="data_pagamento" class="form-label">Dia pagamento(mensal)</label>
                                     <input type="text" class="form-control" id="data_pagamento" name="data_pagamento" value="{{ $aluno->data_pagamento }}" required>
                                 </div>
                                 <div class="mb-3">
