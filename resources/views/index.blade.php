@@ -8,7 +8,7 @@
     <!-- Conteudo Central -->
     <div class="conteudo-central">
         <div class="centralized-content">
-            <h2>Bem-vindo à Gerenciador de Alunos!!</h2>
+            <h2>Bem-vindo à Gerenciador de Alunos!</h2>
         </div>
        
         <div class="centralized-content2">
