@@ -1,4 +1,4 @@
-<!-- resources/views/welcome.blade.php -->
+<!-- resources/views/index.blade.php -->
 @extends('layouts.main')
 
 @section('title', 'Página de Boas-Vindas')
@@ -6,19 +6,14 @@
 @section('content')
 
     <!-- Conteudo Central -->
-    <div class="conteudo-central">
-        <div class="centralized-content">
-            <h2>Bem-vindo à Gerenciador de Alunos!</h2>
-        </div>
-       
-        <div class="centralized-content2">
-            <span>Gerencie seus alunos de maneira eficiente.</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="display-4">Bem-vindo à Gerenciador de Alunos!</h1>
+                <p class="lead">Gerencie seus alunos de maneira eficiente.</p>
+            </div>
         </div>
     </div>
-    <!-- Conteudo Central -->   
-
-
-
-
-
+    <!-- Conteudo Central -->
+    
 @endsection
