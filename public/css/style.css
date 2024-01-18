@@ -318,13 +318,13 @@ label {
 /* Para telas pequenas até 767 pixel //////////////////////////////////////////////////// */
 
 @media (max-width: 767px) {
-    body, html {
+    /* body, html {
         height: 100%;
         margin: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
     /* Se iverter a ordem com o stilo de cima da pai na rota create_rifa */
     body{
@@ -378,7 +378,7 @@ label {
         font-size: 24px;
       }
     
-
+/* esta interferindo no modal de edição do aluno */
     .conteudo-central {
         position: absolute;
         top: 160%;
