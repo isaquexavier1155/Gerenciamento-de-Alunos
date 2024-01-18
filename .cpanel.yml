@@ -1,4 +1,5 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/rifad375/sitesdriversoft.com.br/Gerenciamento-de-Alunos/
-    - /bin/cp -R . $DEPLOYPATH
+    - export DEPLOYPATH=/home1/rifad375/sitesdriversoft.com.br/
+    - /bin/cp -R tests $DEPLOYPATH
+
