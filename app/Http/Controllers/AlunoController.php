@@ -135,4 +135,8 @@ class AlunoController extends Controller
         // Redirecione para a página de alunos com uma mensagem de sucesso
         return redirect()->route('alunos.index')->with('success', 'Aluno excluído com sucesso');
     }
+
+    public function valeapena(){
+        return view('valeapena');
+    }
 }
