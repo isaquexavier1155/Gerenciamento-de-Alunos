@@ -163,7 +163,6 @@ const disableTwoFactorAuthentication = () => {
                             name="code"
                             class="block mt-1 w-1/2"
                             inputmode="numeric"
-                            autofocus
                             autocomplete="one-time-code"
                             @keyup.enter="confirmTwoFactorAuthentication"
                         />

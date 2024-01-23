@@ -11,7 +11,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Oswald:wght@200&family=Roboto" rel="stylesheet">
 
         <!-- Links do Projeto Rifa -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-vzO5T3WM9V9HDr5Os93u9ZxEpSVL95rW8TlVc+3RqgpacJYYR38xGo/EItrD18+qlAEwEcU/J3pU2H27edWMAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+       
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <link rel="shortcut icon" href="/img/icon-ft3.png" type="image/x-icon">
 
@@ -87,7 +88,7 @@
                         </a>
                     </li>
                     <li class="item-menu @if(request()->is('dashboard-minhas-configuracoes')) ativo @endif">
-                        <a href="/dashboard-minhas-configuracoes">
+                        <a href="#">
                             <span class="icon"><i class="bi bi-gear"></i></span>
                             <span class="txt-link">Configurações</span>
                         </a>
@@ -108,7 +109,7 @@
                     @endauth
                     @guest
                     <li class="item-menu">
-                        <a href="/login" class="nav-link">
+                        <a href="/" class="nav-link">
                             <span class="icon"><i class="bi bi-building-up"></i></span>
                             <span class="txt-link">Entrar</span>
                         </a>
