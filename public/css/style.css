@@ -159,9 +159,9 @@ margin-top: 10%;
     border: 2px solid #c0c0c0;
 }
 
-label {
+/* label {
     font-family: cursive;
-}
+} */
 
 /* Para telas grandes /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 767px) {
