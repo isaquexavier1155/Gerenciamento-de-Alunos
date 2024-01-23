@@ -411,7 +411,7 @@ label {
         padding-right: 20px;
         border-radius: 10px;
         font-size: 4vw;
-        font-family: cursive;
+        /* font-family: cursive; */
         font-weight: bold;
     }
 
