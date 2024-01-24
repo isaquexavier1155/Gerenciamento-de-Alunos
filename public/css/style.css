@@ -159,9 +159,9 @@ margin-top: 10%;
     border: 2px solid #c0c0c0;
 }
 
-label {
+/* label {
     font-family: cursive;
-}
+} */
 
 /* Para telas grandes /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 767px) {
@@ -181,7 +181,7 @@ label {
     }
 
     nav.menu-lateral{
-        width: 300px;
+        width: 22.7vw;
         height: 100%;
         background-color: #202020;
         padding: 14px 0 40px 1%;
@@ -312,7 +312,7 @@ label {
     }
 
     #alunosAccordion{
-        width: 55vw !important;
+        width: 52.5vw !important;
     }
 }
 
@@ -327,12 +327,11 @@ label {
         justify-content: center;
     } */
 
-    /* Se iverter a ordem com o stilo de cima da pai na rota create_rifa */
-    /* Deixar margin-left para não dar problemas em outras páginas */
-     body{ 
+    /* Não remover margin-left: 13vw, afeta as telas index e de criação de alunos */
+    body{
         /* background-color: red; */
-         margin-left: 13vw; 
-     }  
+        margin-left: 13vw;
+    } 
 
     .btn-expandir{
     width: 100%;
@@ -359,7 +358,7 @@ label {
     }
 
     nav.menu-lateral {
-        width: 90px;
+        width: 27vw;
     }
     
     #event-create-container {
@@ -412,7 +411,7 @@ label {
         padding-right: 20px;
         border-radius: 10px;
         font-size: 4vw;
-        font-family: cursive;
+        /* font-family: cursive; */
         font-weight: bold;
     }
 
@@ -459,7 +458,10 @@ label {
     width: 6vw;
     border-radius: 5px;
     }
-  
+
+    /* Novos estilos projeto Gerenciador de Alunos */
+    .accordion {
+        width: 100%;
+    }
 
 }
-
