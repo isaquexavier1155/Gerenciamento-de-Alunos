@@ -60,43 +60,15 @@
                                         <label for="nome" class="form-label">Nome:</label>
                                         <input type="text" class="form-control" id="nome" name="nome" value="{{ $aluno->nome }}" required>
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email:</label>
-                                        <input type="email" class="form-control" id="email" name="email" value="{{ $aluno->email }}" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="telefone" class="form-label">Telefone:</label>
-                                        <input type="text" class="form-control" id="telefone" name="telefone" value="{{ $aluno->telefone }}" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="cidade" class="form-label">Cidade:</label>
-                                        <input type="text" class="form-control" id="cidade" name="cidade" value="{{ $aluno->cidade }}" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="dia_aula" class="form-label">Dia da Aula:</label>
-                                        <input type="text" class="form-control" id="dia_aula" name="dia_aula" value="{{ $aluno->dia_aula }}" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="horario_aula" class="form-label">Horário da Aula:</label>
-                                        <input type="text" class="form-control" id="horario_aula" name="horario_aula" value="{{ $aluno->horario_aula }}" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="data_pagamento" class="form-label">Dia pagamento(mensal)</label>
-                                        <input type="text" class="form-control" id="data_pagamento" name="data_pagamento" value="{{ $aluno->data_pagamento }}" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="status_pagamento" class="form-label">Status de Pagamento:</label>
-                                        <select class="form-select" id="status_pagamento" name="status_pagamento" required>
-                                            <option value="pendente" @if($aluno->status_pagamento == 'pendente') selected @endif>Pendente</option>
-                                            <option value="pago" @if($aluno->status_pagamento == 'pago') selected @endif>Pago</option>
-                                        </select>
-                                    </div>
-                                <button type="submit" class="btn btn-primary">Salvar</button>
-                            </form>
+
+                                    <!-- Adicione os outros campos do formulário aqui -->
+
+                                    <button type="submit" class="btn btn-primary btn-block">Salvar</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
                 <!-- Modal de Confirmação para Exclusão -->
                 <div class="modal fade" id="deleteModal{{ $aluno->id }}" tabindex="-1" aria-labelledby="deleteModalLabel{{ $aluno->id }}" aria-hidden="true">
