@@ -17,9 +17,6 @@ body {
     background-attachment: fixed;
 }
 
-
-
-
     /* color: #50c878; /* Verde esmeralda */
     #menu-title {
         color: rgb(79 66 247);
@@ -312,6 +309,10 @@ label {
 
     .accordion-body {
         text-align: left;
+    }
+
+    #alunosAccordion{
+        width: 55vw !important;
     }
 }
 
