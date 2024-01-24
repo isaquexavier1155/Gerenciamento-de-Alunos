@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <br><br>
-                    <li class="item-menu @if(request()->is('index.php')) ativo @endif">
+                    <li class="item-menu @if(request()->is('/')) ativo @endif">
                         <a href="/index.php">
                             <span class="icon"><i class="bi bi-house-door"></i></span>
                             <span class="txt-link">Início</span>

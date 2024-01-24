@@ -28,11 +28,8 @@ Route::middleware([
 
 ////////////////////////////////////MINHAS ROTAS CRIADAS
 
-//PÁGINA INICIAL
-Route::get('/', function () {
-    return view('index');
-});
-
+//ROTA DA PÁGINA INICIAL
+Route::get('/', [AlunoController::class, 'index'])->name('index');
 //ROTAS PARA CRUD DE ALUNOS
 Route::get('/alunos/create', [AlunoController::class, 'create'])->name('alunos.create');
 Route::post('/alunos', [AlunoController::class, 'store'])->name('alunos.store');

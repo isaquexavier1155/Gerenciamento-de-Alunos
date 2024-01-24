@@ -7,6 +7,10 @@ use App\Models\Aluno;
 
 class AlunoController extends Controller
 {
+
+    public function index(){
+        return view('index');
+    }
     public function alunos()
     {
         $alunos = Aluno::all(); // Você pode ajustar isso conforme necessário
