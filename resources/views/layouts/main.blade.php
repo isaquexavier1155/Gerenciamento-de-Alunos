@@ -87,7 +87,7 @@
                         </a>
                     </li>
                     <li class="item-menu @if(request()->is('dashboard-minhas-configuracoes')) ativo @endif">
-                        <a href="/dashboard-minhas-configuracoes">
+                        <a href="#">
                             <span class="icon"><i class="bi bi-gear"></i></span>
                             <span class="txt-link">Configurações</span>
                         </a>
