@@ -48,4 +48,4 @@ Route::get('/alunos', [AlunoController::class, 'alunos'])->name('alunos.index')-
 Route::delete('/alunos/{aluno}', [AlunoController::class, 'destroy'])->name('alunos.destroy');
 
 //ROTA PARA ARTIGOS DO SITE DRIVERSOFT.COM.BR
-Route::get('/porque-ainda-vale-pena-ter-um-site', [AlunoController::class, 'valeapena'])->name('alunos.valeapena');
+Route::get('/porque-ainda-vale-pena-ter-um-site', [AlunoController::class, 'valeapena'])->name('alunos.valeapena')->middleware('auth');
