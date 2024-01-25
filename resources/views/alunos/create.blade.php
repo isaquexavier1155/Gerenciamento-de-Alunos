@@ -1,6 +1,6 @@
 <!-- resources/views/alunos/create.blade.php -->
 
-@extends('layouts.main') <!-- Se você tiver um layout padrão, substitua 'app' pelo nome do seu layout -->
+@extends('layouts.main')
 
 @section('title', 'Cadastrar Aluno')
 

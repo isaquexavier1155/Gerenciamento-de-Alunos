@@ -3,7 +3,7 @@
 @section('title', 'Lista de Alunos')
 
 @section('content')
-<div class="container d-flex flex-column align-items-center justify-content-center" style="min-height: 100vh">
+    <div class="container d-flex flex-column align-items-center justify-content-center" style="min-height: 100vh">
         <h1>Lista de Alunos</h1>
 
         <div class="accordion" id="alunosAccordion">
