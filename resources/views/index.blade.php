@@ -4,7 +4,6 @@
 @section('title', 'Página de Boas-Vindas')
 
 @section('content')
-
     <!-- Conteudo Central -->
     <div class="container">
         <div class="row">
@@ -13,7 +12,37 @@
                 <p class="lead">Gerencie seus alunos de maneira eficiente.</p>
             </div>
         </div>
+
+        <!-- Cards de Serviços -->
+        <div class="row mt-5">
+            <div class="col-md-12 text-center" style="z-index: -100;"> <!-- Adicione a classe mx-auto aqui -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Matrícula Simples</h5>
+                        <p class="card-text">Realize matrículas de forma rápida e fácil, mantendo todos os dados dos alunos organizados.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mt-3 text-center" style="z-index: -100;"> <!-- Adicione a classe mx-auto aqui -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Gerenciamento de Pagamentos</h5>
+                        <p class="card-text">Acompanhe o status de pagamento de todos os alunos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mt-3 text-center" style="z-index: -100;"> <!-- Adicione a classe mx-auto aqui -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunicação Eficiente</h5>
+                        <p class="card-text">Mantenha alunos informados sobre próximas datas de pagamento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim dos Cards de Serviços -->
     </div>
     <!-- Conteudo Central -->
-    
 @endsection

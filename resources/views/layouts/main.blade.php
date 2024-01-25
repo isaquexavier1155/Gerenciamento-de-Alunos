@@ -138,9 +138,39 @@
                 </div> 
             </div>
         </main>
-        <!-- <footer>
-            <p>Rifa Chance D'ouro &copy; 2023</p>
-        </footer> -->
+
+
+        <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <p class="copy">© <span id="current-year"></span> <a href="https://www.sitesdriversoft.com.br/porque-ainda-vale-pena-ter-um-site" target="_blank">- 51.684.558 ISAQUE XAVIER DOS SANTOS</a> - Todos os direitos reservados.</p>
+                    <p>CNPJ: 51.684.558/0001-74</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <style>
+        footer {
+            width: 100%;
+            background-color: #202020;
+            padding: 20px; /* ajuste conforme necessário */
+            margin-top: 50px; /* ajuste conforme necessário */
+            color: white;
+        }
+
+        footer p {
+            margin: 0; 
+            text-align: center;
+        }
+
+        p.copy a {
+            text-decoration: none;
+            color: white; /* Adicione essa linha para manter a cor do link como branco */
+        }
+    </style>
+
         <!-- utilização de ícones externos -->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -180,6 +210,11 @@
                     return number.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
                 }
             });
+        </script>
+
+        <!-- ESCRIPT RESPONSÁVEL PELO CONTROLE DE ANO DO RODAPÉ -->
+        <script>
+            document.getElementById("current-year").innerText = new Date().getFullYear();
         </script>
     </body>
 </html>
