@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-right mt-3">
-                <img src="{{ asset('caminho/para/sua/imagem/logo-sitesdriversoft.jpg') }}" alt="Logo" class="img-fluid" style="max-height: 50px;">
+                <img src="{{ asset('img/logo-sitesdriversoft.jpg') }}" alt="Logo" class="img-fluid" style="max-height: 50px;">
             </div>
         </div>
 
