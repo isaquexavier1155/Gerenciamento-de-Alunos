@@ -30,8 +30,7 @@ class WhatsAppController extends Controller
                 É de extrema importância manter os pagamentos em dia para garantir benefícios exclusivos.
                 Pedimos que, por favor, regularize seu pagamento o mais breve possível.
                 Agradecemos pela sua atenção e colaboração.
-                Segue abaixo QRCODE e código PIX para efetuar o pagamento: 
-                %SendFile%%Url%https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/1024px-Codigo_QR.svg.png%/Url%%/SendFile%";
+                Segue abaixo QRCODE e código PIX para efetuar o pagamento:";
 
             // Enviar mensagem principal
             $this->enviarMensagem($apiUrl, $client, $clientApi, $clientSecret, $aluno["phone"], $mainMessage);
