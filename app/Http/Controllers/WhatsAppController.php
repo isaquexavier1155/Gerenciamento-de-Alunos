@@ -21,7 +21,16 @@ class WhatsAppController extends Controller
             "clientApi" => $clientApi,
             "clientSecret" => $clientSecret,
             "phone" => $numbers,
-            "message" => "Boa Tarde enviado via PHP%SendFile%%Url%https://sitesdriversoft.com.br/Gerenciamento-de-Alunos/public/img/logo-sitesdriversoft.jpg%/Url%%/SendFile%",
+            "message" => "	Prezado  Aluno,
+            Queremos lembrá-lo sobre o pagamento da mensalidade da escola de música, que está atualmente em atraso.
+            É de extrema importância manter os pagamentos em dia para garantir beneficios exclusivos.
+            Pedimos que, por favor, regularize seu pagamento o mais breve possível.
+            Se precisar de qualquer assistência ou quiser discutir opções de pagamento, entre em contato conosco.
+            Agradecemos pela sua atenção e colaboração.
+            PIX copia e cola: 
+        
+        00020101021226830014br.gov.bcb.pix2561qrcodespix.sejaefi.com.br/v2/1b9075c3f59443ddab18f92734eb369852040000530398654041.005802BR5919João Paulo da Silva6009SAO PAULO62080504txid63043C53
+        %SendFile%%Url%https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/1024px-Codigo_QR.svg.png%/Url%%/SendFile%",
         ];
 
         $client = new Client();
