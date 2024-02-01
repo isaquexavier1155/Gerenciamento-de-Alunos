@@ -4,8 +4,15 @@
 @section('title', 'Página de Boas-Vindas')
 
 @section('content')
-    <!-- Conteudo Central -->
+    <!-- Adicione o código abaixo no início do seu conteúdo -->
     <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-right mt-3">
+                <img src="{{ asset('caminho/para/sua/imagem/logo-sitesdriversoft.jpg') }}" alt="Logo" class="img-fluid" style="max-height: 50px;">
+            </div>
+        </div>
+
+        <!-- Conteudo Central -->
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1 class="display-4">Seja bem-vindo!</h1>

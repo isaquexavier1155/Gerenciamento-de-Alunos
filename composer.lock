@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f08179aafd36eeda06b8e4d7edd31ec",
+    "content-hash": "94bea120d504f1c57776d887f3470aae",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2907,6 +2907,107 @@
                 }
             ],
             "time": "2023-11-12T21:59:55+00:00"
+        },
+        {
+            "name": "positus/positus-api-laravel-client",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/positusapps/positus-api-laravel-client.git",
+                "reference": "c21b15e3cda80c39cba8daea5396fb4859fec215"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/positusapps/positus-api-laravel-client/zipball/c21b15e3cda80c39cba8daea5396fb4859fec215",
+                "reference": "c21b15e3cda80c39cba8daea5396fb4859fec215",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=7.0",
+                "php": "^7.3|^8.0",
+                "positus/positus-api-php-client": "^0.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Positus\\Laravel\\ClientServiceProvider"
+                    ],
+                    "aliases": {
+                        "Positus": "Positus\\Laravel\\ClientFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Positus\\Laravel\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caio Kawasaki",
+                    "email": "caiokawasaki@gmail.com"
+                }
+            ],
+            "description": "Client library for Positus APIs",
+            "keywords": [
+                "positus",
+                "positus-api-laravel-client"
+            ],
+            "support": {
+                "issues": "https://github.com/positusapps/positus-api-laravel-client/issues",
+                "source": "https://github.com/positusapps/positus-api-laravel-client/tree/0.1.0"
+            },
+            "time": "2021-07-13T19:24:25+00:00"
+        },
+        {
+            "name": "positus/positus-api-php-client",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/positusapps/positus-api-php-client.git",
+                "reference": "8d5e1d2d7e2cf6bd5b0f93afbefe1c04fccbb211"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/positusapps/positus-api-php-client/zipball/8d5e1d2d7e2cf6bd5b0f93afbefe1c04fccbb211",
+                "reference": "8d5e1d2d7e2cf6bd5b0f93afbefe1c04fccbb211",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0.1",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Positus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caio Kawasaki",
+                    "email": "caiokawasaki@gmail.com"
+                }
+            ],
+            "description": "Client library for Positus APIs",
+            "keywords": [
+                "positus",
+                "positus-api-php-client"
+            ],
+            "support": {
+                "issues": "https://github.com/positusapps/positus-api-php-client/issues",
+                "source": "https://github.com/positusapps/positus-api-php-client/tree/0.1.0"
+            },
+            "time": "2021-07-13T19:08:46+00:00"
         },
         {
             "name": "pragmarx/google2fa",
