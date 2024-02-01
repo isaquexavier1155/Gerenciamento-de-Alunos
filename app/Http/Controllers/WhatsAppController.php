@@ -16,7 +16,7 @@ class WhatsAppController extends Controller
         // Lista de alunos com seus números de telefone
         $alunos = [
             ["nome" => "Isaque", "phone" => "+5551997726349", "pixKey" => "00020101021226830014br.gov.bcb.pix2561qrcodespix.sejaefi.com.br/v2/1b9075c3f59443ddab18f92734eb369852040000530398654041.005802BR5919Isaque6009SAO PAULO62080504txid63043C53"],
-            ["nome" => "Ana Caroline", "phone" => "+5551980388229", "pixKey" => "00020101021226830014br.gov.bcb.pix2561qrcodespix.sejaefi.com.br/v2/1b9075c3f59443ddab18f92734eb369852040000530398654041.005802BR5919AnaCaroline6009SAO PAULO62080504txid63043C53"],
+            ["nome" => "Sites Driver Soft", "phone" => "+5551999006797", "pixKey" => "00020101021226830014br.gov.bcb.pix2561qrcodespix.sejaefi.com.br/v2/1b9075c3f59443ddab18f92734eb369852040000530398654041.005802BR5919Sites Driver Soft6009SAO PAULO62080504txid63043C53"],
             // Adicione mais alunos conforme necessário
         ];
 
