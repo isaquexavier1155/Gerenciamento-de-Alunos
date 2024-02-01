@@ -15,7 +15,7 @@ class WhatsAppController extends Controller
 
         // Lista de alunos com seus números de telefone
         $alunos = [
-            ["nome" => "Isaque", "phone" => "+5551997726349", "pixKey" => "00020101021226830014br.gov.bcb.pix2561qrcodespix.sejaefi.com.br/v2/1b9075c3f59443ddab18f92734eb369852040000530398654041.005802BR5919Manuela6009SAO PAULO62080504txid63043C53"],
+            ["nome" => "Isaque", "phone" => "+5551997726349", "pixKey" => "00020101021226830014br.gov.bcb.pix2561qrcodespix.sejaefi.com.br/v2/1b9075c3f59443ddab18f92734eb369852040000530398654041.005802BR5919Isaque6009SAO PAULO62080504txid63043C53"],
             ["nome" => "Ana Caroline", "phone" => "+5551980388229", "pixKey" => "00020101021226830014br.gov.bcb.pix2561qrcodespix.sejaefi.com.br/v2/1b9075c3f59443ddab18f92734eb369852040000530398654041.005802BR5919Ana Caroline6009SAO PAULO62080504txid63043C53"],
             // Adicione mais alunos conforme necessário
         ];
@@ -34,7 +34,9 @@ class WhatsAppController extends Controller
                     Se precisar de qualquer assistência ou quiser discutir opções de pagamento, entre em contato conosco.
                     Agradecemos pela sua atenção e colaboração.
                     PIX copia e cola:
+
                     $aluno[pixKey]
+                    <button onclick=\"copiarParaAreaTransferencia('$aluno[pixKey]')\">Copiar PIX</button>
                     %SendFile%%Url%https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/1024px-Codigo_QR.svg.png%/Url%%/SendFile%",
             ];
 
@@ -54,3 +56,4 @@ class WhatsAppController extends Controller
         }
     }
 }
+
