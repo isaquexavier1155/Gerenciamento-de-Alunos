@@ -28,13 +28,15 @@ class WhatsAppController extends Controller
                 Queremos lembrá-lo sobre o pagamento da mensalidade da escola de música, que está atualmente em atraso.
                 É de extrema importância manter os pagamentos em dia para garantir benefícios exclusivos.
                 Pedimos que, por favor, regularize seu pagamento o mais breve possível.
-                Agradecemos pela sua atenção e colaboração.";
+                Agradecemos pela sua atenção e colaboração.
+                Segue abaixo QRCODE e código PIX para efetuar o pagamento: 
+                %SendFile%%Url%https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Codigo_QR.svg/1024px-Codigo_QR.svg.png%/Url%%/SendFile%";
 
             // Enviar mensagem principal
             $this->enviarMensagem($apiUrl, $client, $clientApi, $clientSecret, $aluno["phone"], $mainMessage);
 
             // Mensagem separada com a chave PIX
-            $pixMessage = "PIX copia e cola: [$aluno[pixKey]]";
+            $pixMessage = "$aluno[pixKey]";
 
             // Enviar mensagem PIX
             $this->enviarMensagem($apiUrl, $client, $clientApi, $clientSecret, $aluno["phone"], $pixMessage);
