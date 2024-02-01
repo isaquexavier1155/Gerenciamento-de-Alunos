@@ -46,3 +46,8 @@ Route::delete('/alunos/{aluno}', [AlunoController::class, 'destroy'])->name('alu
 
 //ROTA PARA ARTIGOS DO SITE DRIVERSOFT.COM.BR
 Route::get('/porque-ainda-vale-pena-ter-um-site', [AlunoController::class, 'valeapena'])->name('alunos.valeapena');
+
+//ROTA PARA ENVIO DE MENSAGENS WHATSAPP
+use App\Http\Controllers\WhatsAppController;
+
+Route::get('/enviar-mensagens', [WhatsAppController::class, 'enviarMensagens']);
