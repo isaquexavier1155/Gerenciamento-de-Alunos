@@ -43,6 +43,17 @@
         
         <link rel="stylesheet" href="/css/style.css">
         <script src="/js/script.js"></script>
+
+        <!--Google Analytics - Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BXBV4VG2M7"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BXBV4VG2M7');
+        </script>
+
     </head>
     <body> 
         <header>
