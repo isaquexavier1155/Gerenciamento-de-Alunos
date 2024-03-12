@@ -4,6 +4,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\AlunoController;
+use App\Http\Controllers\WhatsAppController;
 
 //////////////////////////////////// ROTAS CRIADAS AUTOMÁTICAMENTE
 
@@ -48,6 +49,4 @@ Route::delete('/alunos/{aluno}', [AlunoController::class, 'destroy'])->name('alu
 Route::get('/porque-ainda-vale-pena-ter-um-site', [AlunoController::class, 'valeapena'])->name('alunos.valeapena');
 
 //ROTA PARA ENVIO DE MENSAGENS WHATSAPP
-use App\Http\Controllers\WhatsAppController;
-
 Route::get('/enviar-mensagens', [WhatsAppController::class, 'enviarMensagens']);
